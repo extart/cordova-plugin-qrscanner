@@ -14,9 +14,9 @@ module.exports = {
     umdNamedDefine: true
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      comments: false,
-      sourceMap: true
-    })
+//    new webpack.optimize.UglifyJsPlugin({
+//      comments: false,
+//      sourceMap: true
+//    })
   ]
 };
